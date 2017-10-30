@@ -72,6 +72,7 @@
             <groupId>io.springfox</groupId>
             <artifactId>springfox-swagger2</artifactId>
             <version>${springfox.version}</version>
+            <optional>true</optional>
             <exclusions>
                 <exclusion>
                     <groupId>org.mapstruct</groupId>
@@ -83,6 +84,7 @@
             <groupId>io.springfox</groupId>
             <artifactId>springfox-bean-validators</artifactId>
             <version>${springfox.version}</version>
+            <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>io.prometheus</groupId>
