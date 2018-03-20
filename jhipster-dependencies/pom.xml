@@ -172,6 +172,13 @@
                 <artifactId>hazelcast-wm</artifactId>
                 <version>${hazelcast-wm.version}</version>
             </dependency>
+            <!-- This can be removed with spring-boot 2.0.1 / spring-platform Cairo.RELEASE -->
+            <!-- https://github.com/spring-projects/spring-boot/issues/12526 -->
+            <dependency>
+                <groupId>org.infinispan</groupId>
+                <artifactId>infinispan-hibernate-cache</artifactId>
+                <version>${infinispan.version}</version>
+            </dependency>
             <dependency>
                 <groupId>org.infinispan</groupId>
                 <artifactId>infinispan-cloud</artifactId>
