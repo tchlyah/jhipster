@@ -73,6 +73,7 @@
         <oracle-jdbc.version>12.2.0.1</oracle-jdbc.version>
         <problem-spring-web.version>0.22.2</problem-spring-web.version>
         <prometheus-simpleclient.version>0.3.0</prometheus-simpleclient.version>
+        <public-suffix-list.version>2.2.0</public-suffix-list.version>
         <!-- The spring-boot version should match the one in
         https://github.com/spring-io/platform/blob/v${project.parent.version}/platform-bom/pom.xml -->
         <spring-boot.version>2.0.0.RELEASE</spring-boot.version>
@@ -293,6 +294,11 @@
                 <groupId>io.prometheus</groupId>
                 <artifactId>simpleclient_servlet</artifactId>
                 <version>${prometheus-simpleclient.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>de.malkusch.whois-server-list</groupId>
+                <artifactId>public-suffix-list</artifactId>
+                <version>${public-suffix-list.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework.boot</groupId>
